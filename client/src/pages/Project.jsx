@@ -12,7 +12,7 @@ export default function Project() {
 
   if (loading) return <Spinner />;
   if (error) return <p>Something Went Wrong</p>;
-
+ 
   return (
     <>
       {!loading && !error && (
